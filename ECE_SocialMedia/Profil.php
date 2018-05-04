@@ -11,10 +11,10 @@
     
     <title>ECE SOCIAL MEDIA - Profil</title>
     <!-- Icone d'onglet -->
-    <link rel="icon" href="ece.ico">
+    <link rel="icon" href="ECE_SocialMedia/ece.ico">
 
     <!-- Custom styles for this template -->
-    <link href="raaaahhhh.css" rel="stylesheet">
+    <link href="profil.css" rel="stylesheet">
   </head>
 
   <body>
@@ -28,23 +28,23 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link disabled" href="garde.php">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="Reseau.php">Mon Reseau</a>
+          </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#"><span class="sr-only">(current)</span>Mon Profil</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Mon Reseau</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Mon Profil</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" href="#">Notifications</a>
+            <a class="nav-link disabled" href="Notifications.php">Notifications</a>
           </li>
           <li class="nav-item">
             <a class="nav-link disabled" href="#">Messagerie</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#">Emplois</a>
+            <a class="nav-link disabled" href="Emplois.php">Emplois</a>
           </li>
         </ul>
         <form class="form-inline mt-2 mt-md-0">
@@ -61,15 +61,15 @@
         <p class="card-text">Description de Bob Ross</p>
       </div>
         <div class="d-flex justify-content-between align-items-center">
-      <div> <a href="?.?"><!--lien du cv--><img src="ECE_SocialMedia\cv.jpg" width="50" height="50"/><!--icone du cv--></a></div>
+      <div> <a href="?.?"><!--lien du cv--><img src="cv.jpg" width="50" height="50"/><!--icone du cv--></a></div>
       <div class="card-body">
         <p class="card-text">CV</p>
       </div>
-      <div> <a href="?.?"><!--lien de la carte de visite--><img src="ECE_SocialMedia\carte de visite.jpg" width="50" height="50"/><!--icone de la carte de visite--></a></div>
+      <div> <a href="?.?"><!--lien de la carte de visite--><img src="carte de visite.jpg" width="50" height="50"/><!--icone de la carte de visite--></a></div>
       <div class="card-body">
         <p class="card-text">Carte de visite</p>
       </div>
-      <div> <a href="?.?"><!--lien de l'archive--><img src="ECE_SocialMedia\archive.jpg" width="50" height="50"/><!--icone de l'archive--></a></div>
+      <div> <a href="?.?"><!--lien de l'archive--><img src="archive.jpg" width="50" height="50"/><!--icone de l'archive--></a></div>
       <div class="card-body">
         <p class="card-text">Archive</p>
       </div>
@@ -81,7 +81,7 @@
         <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 box-shadow">
-              <img src="ECE_SocialMedia\jeanMichel.jpg" alt="Card image cap"><!--Image profil des autres-->
+              <img src="jeanMichel.jpg" alt="Card image cap" width="120" length="120"><!--Image profil des autres-->
               <div class="card-body">
                 <p class="card-text">Description de Jean Michel</p>
                 <div class="d-flex justify-content-between align-items-center">
@@ -94,7 +94,7 @@
           </div>
           <div class="col-md-4">
             <div class="card mb-4 box-shadow">
-              <img src="ECE_SocialMedia\lao.jpg" alt="Card image cap"><!--Image profil des autres-->
+              <img src="lao.jpg" alt="Card image cap" width="100" length="100"><!--Image profil des autres-->
               <div class="card-body">
                 <p class="card-text">Description de Lao</p>
                 <div class="d-flex justify-content-between align-items-center">
@@ -107,7 +107,7 @@
           </div>
           <div class="col-md-4">
             <div class="card mb-4 box-shadow">
-              <img src="ECE_SocialMedia\ryu.jpg" alt="Card image cap"><!--Image profil des autres-->
+              <img src="ryu.jpg" alt="Card image cap" width="100" length="100"><!--Image profil des autres-->
               <div class="card-body">
                 <p class="card-text">Description de Ryu</p>
                 <div class="d-flex justify-content-between align-items-center">
@@ -118,6 +118,10 @@
               </div>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  </main>
 
       <!-- ICI CODE POUR LA ZONE DE MESSAGES (FAUT RAJOUTER UNE ICONE DE MESSAGERIE MAIS ON VERRA CA ENSEMBLE-->
       <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
@@ -130,9 +134,9 @@
             <li class="nav-item dropup">
               <a class="nav-link dropdown-toggle" href="https://getbootstrap.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Messages</a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown10">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <a class="dropdown-item" href="#">Ryu</a>
+                <a class="dropdown-item" href="#">Lao</a>
+                <a class="dropdown-item" href="#">Saladin</a>
               </div>
             </li>
           </ul>
