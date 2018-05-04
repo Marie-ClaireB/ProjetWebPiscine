@@ -1,0 +1,87 @@
+/* https://stackoverflow.com/questions/9980531/center-image-in-div-horizontally */
+img
+{
+    position: relative;
+	margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    /*margin-bottom: 10px;*/
+}
+section {
+    display: block;
+}
+.jumbotron {
+    padding: 5%;
+    margin-bottom: 5% ;
+    background-color: #e9ecef;
+	text-align: center;
+    /*border-radius: 0px; */
+}
+.container {
+    width: 100%;
+    /*padding-right: 2%;
+    padding-left: 2%;*/
+    margin-right: auto;
+    margin-left: auto;
+}
+@media (min-width:576px) {
+    .container {
+    max-width: 540px;
+}
+}@media (min-width:768px) {
+    .container {
+    max-width: 720px;
+}
+}@media (min-width:992px) {
+    .container {
+    max-width: 960px;
+}
+}@media (min-width:1200px) {
+    .container {
+    max-width: 1140px;
+}
+
+.row {
+	
+   /*display: -ms-flexbox; */
+    display: flex;
+    /*-ms-flex-wrap: wrap; */
+    flex-wrap: wrap; 
+    /*margin-right: -15px;
+    margin-left: -15px;*/
+}
+
+ .col-md-4 {
+    position: relative;
+    width: 30%;
+    /*min-height: 1px;*/
+    padding-right: 0;
+    padding-left: 2%;
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: 0;
+}
+.mb-4 {
+    margin-bottom: 4%;
+}
+/*box-shadow*/
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 2%;
+}
+.card-text {
+    margin-bottom: 3%;
+}
