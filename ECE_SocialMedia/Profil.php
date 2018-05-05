@@ -56,10 +56,10 @@
 
     <!-- ICI CODE POUR LE CONTENU-->
     <main role="main" class="container">
-        <img src="?.jpg" width="100" height="100">;<!--Image profil utilisateur-->
+        <img src="?.jpg" width="100" height="100"><!--Image profil utilisateur-->
         <div class="card-body">
-          <h2></h2>
-          <p class="card-text">Description : </p>
+          <h2><?php include('profil_utilisateur_prenom.php'); ?><?php include('profil_utilisateur_nom.php'); ?></h2>
+          <p class="card-text">Description : <?php include('profil_utilisateur_description.php'); ?></p>
 
       </div>
         <div class="d-flex justify-content-between align-items-center">
