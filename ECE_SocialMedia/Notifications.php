@@ -67,33 +67,30 @@
             
 		<div class="media text-muted pt-3">
 		
-			<img src="Img/Zorro.jpg" alt="photo" height="225">
+			<img src="Img/notif.png" alt="photo" height="100">
 			<p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-            <strong class="d-block text-gray-dark">Pseudo</strong>
-            Etudiant,
-			Description
+            <strong class="d-block text-gray-dark"><?php include('NotifTitre1.php'); ?></strong>
+            <?php include('NotifContenu1.php'); ?>
           </p>
-		  <button type="button" class="btn btn-sm btn-outline-secondary">Aller sur sa page</button>
+		  <!--button type="button" class="btn btn-sm btn-outline-secondary">Aller sur sa page</button-->
         
 		</div>
 
 			
 		<div class="media text-muted pt-3">
-			<img src="Img/elec.jpg" alt="photo" height="225">
+			<img src="Img/notif.png" alt="photo" height="100">
 			<p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-            <strong class="d-block text-gray-dark">Pseudo</strong>
-            Alumni
+            <strong class="d-block text-gray-dark"><?php include('NotifTitre2.php'); ?></strong>
+            <?php include('NotifContenu2.php'); ?>
           </p>
-		  <button type="button" class="btn btn-sm btn-outline-secondary">Aller sur sa page</button>
         </div>
 		
          <div class="media text-muted pt-3">
-			<img src="Img/elec.jpg" alt="photo" height="225">
+			<img src="Img/notif.png" alt="photo" height="100">
 			<p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-            <strong class="d-block text-gray-dark">Pseudo</strong>
-            Professeur
+            <strong class="d-block text-gray-dark"><?php include('NotifTitre3.php'); ?></strong>
+            <?php include('NotifContenu3.php'); ?>
           </p>
-		  <button type="button" class="btn btn-sm btn-outline-secondary">Aller sur sa page</button>
         </div>
 
             

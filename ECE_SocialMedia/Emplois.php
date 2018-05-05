@@ -46,7 +46,7 @@
 						<a class="nav-link disabled" href="#">Messagerie</a>
 					</li>
 					<li class="nav-item active">
-						<a class="nav-link" href="Emplois.php">Emplois <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="#">Emplois <span class="sr-only">(current)</span></a>
 					</li>
 				</ul>
 				<form class="form-inline mt-2 mt-md-0">
@@ -83,35 +83,35 @@
 		</div>
 		<br/>
 		<br/>
+		
+
         <h3> Voir les offres d'emploi/ de stage </h3> 
 		<div class="media text-muted pt-3">
 		
-			<img src="Img/Zorro.jpg" alt="photo" height="225">
+			<img src="Img/Stage.png" alt="photo" height="100">
 			<p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
             <strong class="d-block text-gray-dark"><?php include('StageTitre1.php'); ?></strong>
             <?php include('StageContenu1.php'); ?>
           </p>
-		  <button type="button" class="btn btn-sm btn-outline-secondary">Aller sur sa page</button>
+		  <!--button type="button" class="btn btn-sm btn-outline-secondary">Aller sur sa page</button-->
         
 		</div>
 
 			
 		<div class="media text-muted pt-3">
-			<img src="Img/elec.jpg" alt="photo" height="225">
+			<img src="Img/Stage.png" alt="photo" height="100">
 			<p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-            <strong class="d-block text-gray-dark">Pseudo</strong>
-            Alumni
+            <strong class="d-block text-gray-dark"><?php include('StageTitre2.php'); ?></strong>
+            <?php include('StageContenu2.php'); ?>
           </p>
-		  <button type="button" class="btn btn-sm btn-outline-secondary">Aller sur sa page</button>
         </div>
 		
          <div class="media text-muted pt-3">
-			<img src="Img/elec.jpg" alt="photo" height="225">
+			<img src="Img/Stage.png" alt="photo" height="100">
 			<p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
-            <strong class="d-block text-gray-dark">Pseudo</strong>
-            Professeur
+            <strong class="d-block text-gray-dark"><?php include('StageTitre3.php'); ?></strong>
+            <?php include('StageContenu3.php'); ?>
           </p>
-		  <button type="button" class="btn btn-sm btn-outline-secondary">Aller sur sa page</button>
         </div>
 
             
