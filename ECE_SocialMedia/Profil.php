@@ -56,9 +56,11 @@
 
     <!-- ICI CODE POUR LE CONTENU-->
     <main role="main" class="container">
-      <img src="bobRoss.jpg" width="100" height="100"><!--Image profil utilisateur-->
-      <div class="card-body">
-        <p class="card-text">Description de Bob Ross</p>
+        <img src="?.jpg" width="100" height="100">;<!--Image profil utilisateur-->
+        <div class="card-body">;
+          <h2></h2>; 
+          <p class="card-text">Description : </p>;
+
       </div>
         <div class="d-flex justify-content-between align-items-center">
       <div> <a href="?.?"><!--lien du cv--><img src="cv.jpg" width="50" height="50"/><!--icone du cv--></a></div>
@@ -81,7 +83,7 @@
         <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 box-shadow">
-              <img src="jeanMichel.jpg" alt="Card image cap" width="120" length="120"><!--Image profil des autres-->
+              <img src="Deus Vult.jpg" alt="Card image cap" width="120" length="120"><!--Image profil des autres-->
               <div class="card-body">
                 <p class="card-text">Description de Jean Michel</p>
                 <div class="d-flex justify-content-between align-items-center">
@@ -94,7 +96,7 @@
           </div>
           <div class="col-md-4">
             <div class="card mb-4 box-shadow">
-              <img src="lao.jpg" alt="Card image cap" width="100" length="100"><!--Image profil des autres-->
+              <img src="Tao To King.jpg" alt="Card image cap" width="100" length="100"><!--Image profil des autres-->
               <div class="card-body">
                 <p class="card-text">Description de Lao</p>
                 <div class="d-flex justify-content-between align-items-center">
@@ -107,7 +109,7 @@
           </div>
           <div class="col-md-4">
             <div class="card mb-4 box-shadow">
-              <img src="ryu.jpg" alt="Card image cap" width="100" length="100"><!--Image profil des autres-->
+              <img src="Hadoken Hadoken Hadoken.jpg" alt="Card image cap" width="100" length="100"><!--Image profil des autres-->
               <div class="card-body">
                 <p class="card-text">Description de Ryu</p>
                 <div class="d-flex justify-content-between align-items-center">
@@ -123,6 +125,7 @@
     </div>
   </main>
 
+
       <!-- ICI CODE POUR LA ZONE DE MESSAGES (FAUT RAJOUTER UNE ICONE DE MESSAGERIE MAIS ON VERRA CA ENSEMBLE-->
       <nav class="navbar fixed-bottom navbar-expand-sm navbar-dark bg-dark">
       
@@ -135,8 +138,8 @@
               <a class="nav-link dropdown-toggle" href="https://getbootstrap.com" id="dropdown10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Messages</a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdown10">
                 <a class="dropdown-item" href="#">Ryu</a>
-                <a class="dropdown-item" href="#">Lao</a>
-                <a class="dropdown-item" href="#">Saladin</a>
+                <a class="dropdown-item" href="#">Lao Tseu</a>
+                <a class="dropdown-item" href="#">Selahedin</a>
               </div>
             </li>
           </ul>
