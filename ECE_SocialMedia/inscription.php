@@ -25,16 +25,16 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
 	
-		<form class="formCo" action = "#?.php" method="post">
+		<form class="formCo" action = "checkInsc.php" method="post">
 			<h1 class="h3 mb-3 font-weight-normal">Inscrivez-vous</h1>
 			<label for="inputNom" class ="sr-only">Nom</label>
-			<input type="text" id="inputNom" class = "form-control" placeholder="Nom" required autofocus>
+			<input type="text" id="inputNom" name="inputNom" class = "form-control" placeholder="Nom" required autofocus>
 			<label for="inputPrenom" class ="sr-only">Prenom</label>
-			<input type="text" id="inputPrenom" class = "form-control" placeholder="Prenom" required>
-			<label for="inputPSeudo" class ="sr-only">Pseudo</label>
-			<input type="text" id="inputPSeudo" class = "form-control" placeholder="Pseudo" required>
+			<input type="text" id="inputPrenom" name="inputPrenom" class = "form-control" placeholder="Prenom" required>
+			<label for="inputPseudo" class ="sr-only">Pseudo</label>
+			<input type="text" id="inputPseudo" name="inputPseudo" class = "form-control" placeholder="Pseudo" required>
 			<label for="inputEmail" class="sr-only">Adresse mail</label>
-			<input type="email" id="inputEmail" class="form-control" placeholder="Adresse mail" required>
+			<input type="email" id="inputEmail" name="inputEmail" class="form-control" placeholder="Adresse mail" required>
 			<!--
 			<label for="inputPassword" class="sr-only">Password</label>
 			<input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
