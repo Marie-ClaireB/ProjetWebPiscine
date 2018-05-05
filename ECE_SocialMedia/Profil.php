@@ -57,9 +57,9 @@
     <!-- ICI CODE POUR LE CONTENU-->
     <main role="main" class="container">
         <img src="?.jpg" width="100" height="100">;<!--Image profil utilisateur-->
-        <div class="card-body">;
-          <h2></h2>; 
-          <p class="card-text">Description : </p>;
+        <div class="card-body">
+          <h2></h2>
+          <p class="card-text">Description : </p>
 
       </div>
         <div class="d-flex justify-content-between align-items-center">
