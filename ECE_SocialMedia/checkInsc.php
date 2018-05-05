@@ -42,18 +42,19 @@
 			exit();
 		}
 		else{
-			$sql = "INSERT INTO utilisateur (typeUtilisateur, etatUtilisateur, nom, prenom, pseudo, email) VALUES (1, 'etudiant', '".$_POST['inputNom']."', '".$_POST['inputPrenom']."', '".$_POST['inputPseudo']."', '".$_POST['inputEmail']."')";7
+			$sql = "INSERT INTO utilisateur (typeUtilisateur, etatUtilisateur, nom, prenom, pseudo, email) VALUES (1, 'etudiant', '".$_POST['inputNom']."', '".$_POST['inputPrenom']."', '".$_POST['inputPseudo']."', '".$_POST['inputEmail']."')";
 			$sql2 = "SELECT * FROM utilisateur WHERE pseudo = '" .$_POST['inputPseudo']. "' AND email = '" .$_POST['inputEmail']."'";
 			$result2 = mysqli_query($conn, $sql2) or die('Erreur !');
 			$data2 = mysqli_fetch_array($result2);
 			mysqli_query($conn, $sql) or die('Erreur !');
 			mysqli_free_result($result);
-			echo htmlspecialchars('Compte creer', ENT_QUOTES);
+			/*echo htmlspecialchars('Compte creer', ENT_QUOTES);*/
 			session_start();
+			$id = intval($data2['idUtilisateur']);
 			$_SESSION['pseudo'] = $_POST['inputPseudo'];
-			$sql = "UPDATE session SET connecte = 1 WHERE idUtilisateur = '".$data2['idUtilisateur']."'";
+			$sql = "UPDATE session SET connecte = 1 WHERE idUtilisateur = ".$id."";
 			mysqli_query($conn, $sql) or die('Erreur !');
-			$sql = "UPDATE session SET connecte = 0 WHERE idUtilisateur <> '".$data2['idUtilisateur']."'";
+			$sql = "UPDATE session SET connecte = 0 WHERE idUtilisateur <> ".$id."";
 			mysqli_query($conn, $sql) or die('Erreur !');
 			header('Location: garde.php');
 			exit();
