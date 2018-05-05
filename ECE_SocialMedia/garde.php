@@ -32,19 +32,19 @@
 						<a class="nav-link" href="#">Accueil <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#">Mon Reseau</a>
+						<a class="nav-link disabled" href="Reseau.php">Mon Reseau</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link disabled" href="#">Mon Profil</a>
+						<a class="nav-link disabled" href="Profil.php">Mon Profil</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link disabled" href="#">Notifications</a>
+						<a class="nav-link disabled" href="Notifications.php">Notifications</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link disabled" href="#">Messagerie</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link disabled" href="#">Emplois</a>
+						<a class="nav-link disabled" href="Emplois.php">Emplois</a>
 					</li>
 				</ul>
 				<form class="form-inline mt-2 mt-md-0">
