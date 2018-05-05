@@ -23,14 +23,14 @@
 		$data2 = mysqli_fetch_array($result2);
 		
 		mysqli_free_result($result);
-		mysqli_close($conn);
 		
 		if($data[0] == 1){
 			session_start();
 			$_SESSION['pseudo'] = $_POST['inputPseudo'];
-			$sql = "UPDATE session SET connecte = 1 WHERE idUtilisateur = '".$data2['idUtilisateur']."'";
+			$id = intval($data2['idUtilisateur']);
+			$sql = "UPDATE session SET connecte = 1 WHERE idUtilisateur = ".$id."";
 			mysqli_query($conn, $sql) or die('Erreur !');
-			$sql = "UPDATE session SET connecte = 0 WHERE idUtilisateur <> '".$data2['idUtilisateur']."'";
+			$sql = "UPDATE session SET connecte = 0 WHERE idUtilisateur <> ".$id."";
 			mysqli_query($conn, $sql) or die('Erreur !');
 			header('Location: garde.php');
 			exit();
@@ -40,4 +40,6 @@
 			exit();
 		}
 	}
+	
+	mysqli_close($conn);
 ?>
