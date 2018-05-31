@@ -32,11 +32,10 @@
 						<a class="nav-link" href="garde.php">Accueil <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-<<<<<<< HEAD
-						<a class="nav-link" href="Reseau.php">Mon Reseau</a>
-=======
+
+
 						<a class="nav-link disabled" href="Reseau.php">Mon Reseau</a>
->>>>>>> fd66e4a732506b3df9cdbed297d027a74f9f970b
+
 					</li>
 					<li class="nav-item">
 						<a class="nav-link disabled" href="Profil.php">Mon Profil</a>
